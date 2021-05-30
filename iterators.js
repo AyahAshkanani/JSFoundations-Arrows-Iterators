@@ -50,17 +50,14 @@ const hottestDays = function (temperatures, threshhold) {
  *       all previous functions
  *******************************************/
 
-//const logHottestDays = function (temperatures, threshhold) { const result = temperatures.filter(answer => answer > threshhold ).map(answer => console.log(answer = (answer - 32) * (5/9)));};
+const logHottestDays = function (temperatures, threshhold) {
+    
+ //temperatures.filter(answer => answer > threshhold ).map(answer => console.log(answer = (answer - 32) * (5/9)));
    
+logger(toCelsius(hottestDays(temperatures, threshhold)));
 
-const logHottestDays = (temperatures, threshhold)=>logger(toCelsius(hottestDays(temperatures, threshhold)));
 
-// const logHottestDays = function (temperatures, threshhold) {
-//   temperatures
-//     .filter((t) => t > threshhold)
-//     .map((t) => (t - 32) * (5 / 9))
-//     .forEach((element) => console.log(element));
-// };
+ };
 
 /* Uncomment the following lines to test your code... */
 
